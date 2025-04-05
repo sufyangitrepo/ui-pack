@@ -1,0 +1,12 @@
+.counter-button {
+    width: '32px';
+    height: '32px';
+    font-size: '20px';
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
