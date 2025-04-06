@@ -7,7 +7,7 @@ const useCounter = () => {
   }
   const decrement = (decr: number) => {
     if(counter >= decr) {
-      setCounter((pre) => pre + decr);
+      setCounter((pre) => pre - decr);
     }
   }
   

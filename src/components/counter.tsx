@@ -1,8 +1,9 @@
 import * as React  from 'react'
-import useCounter from '../hooks/counter'
+import useCounter from '../hooks/use-counter'
 
 type CounterPropTypes = {
-  counterValue: number
+  counterValue: number,
+  children: React.ReactNode
 };
 
 const Counter = ({counterValue=1}: CounterPropTypes) => {
